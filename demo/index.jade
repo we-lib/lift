@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title Demo: lift
+    link(rel="stylesheet" href="../dist/lift.css")
+    link(rel="stylesheet" href="animation.css")
+    link(rel="stylesheet" href="demo.css")
+  body
+    .wrapper
+    
+      ul#pages.container
+        li.page.page1_1
+          .icos_logo
+        li.page.page2_1
+          .icos_logo
+          .txt1
+            h2 达芬奇
+            p 他是艺术家、是科学家、是发明家是建筑学家
+        li.page.page2_2
+          .icos_logo
+          .txt1
+            h2 米开朗基罗
+            p 他是绘画家、是雕塑家、是建筑师、是诗人
+        li.page.page3_1
+          .icos_logo
+          .txt1
+            h2 阿兰·麦席森·图灵
+            p
+              | 他是
+              b “人工智能之父”
+            p 还是世界级的长跑运动员
+
+    | <a target="_blank" href="https://github.com/fritx/lift"><img style="position: absolute; top: 0; right: 0; border: 0;" src="fork.png" alt="Fork me on GitHub"></a>
+    script(src="jquery.min.js")
+    script(src="hammer.min.js")
+    script(src="jquery.hammer.js")
+    script(src="../dist/lift.js")
+    script.
+      $('#pages').lift()
