@@ -19,7 +19,6 @@
       velocity: 0.01
     })
     mc.on('swipeup swipedown', function(e){
-      console.log(e)
       if (e.type === 'swipedown') {
         go(current - 1)
       } else if (e.type === 'swipeup') {

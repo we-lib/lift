@@ -1,8 +1,8 @@
 # lift
 
-> A fork of the vertical slides of <www.lagou.com/subject/s_zank.html> (mobile version)
+> A fork of the vertical slides of <http://www.lagou.com/subject/s_zank.html> (mobile version)
 
-Demo: <http://fritx.github.io/lift>
+Demo: <http://fritx.github.io/lift/demo>
 
 ## Usage
 
