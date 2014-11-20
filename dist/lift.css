@@ -1,0 +1,10 @@
+ul.container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+ul.container li.page {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}

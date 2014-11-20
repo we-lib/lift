@@ -1,6 +1,2 @@
 node_modules
 bower_components
-dist
-demo/*.html
-demo/*.css
-demo/*.min.js
